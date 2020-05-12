@@ -1,0 +1,42 @@
+body {
+    background-image:       url('https://catracalivre.com.br/wp-content/uploads/2019/09/the-nature-conservancy-paisagem3-1.jpg');
+    background-size: 100vw 100vh;
+    font-family: arial;
+    
+    /* body seleciona tudo, o primeiro comando é pra imagem de site, mas pode ser so uma cor, igual ta no menu, o segundo é pro tamanho da imagem,100 é porcentagem, vw - horizontal, vh - vertical, o terceiro pra escolher a fonte, baseado no word, o quarto é pra garantir que body fique sempre da altura do view port*/
+  }
+  
+  
+  .menu {
+    background-color: white;
+    /* usa-se o ponto para selecionar um elemento específico do html, no caso -menu-, o comando refere-se ao fundo desse elemento*/
+  }
+  
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* mudar a formatação dos elementos do menu, o primeiro é da disposição, o segundo do espaçamento, o terceiro foi pra tirar o o ponto que tava configurado pra lista*/
+  }
+  
+  
+  a{
+    color: black;
+    text-decoration: none;
+    /* pra configurar o menu, mudar cor das letras, tirar o sublinhado*/
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+    /*pre-definido, pra deixar sublinhado quando o mouse passa no menu*/ 
+  }
+  
+  
+  .site-title,
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    /*como o titulo e sub titulo vao ter as mesmas configurações, pode juntar assim*/
+  }
